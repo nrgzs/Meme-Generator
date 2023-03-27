@@ -9,6 +9,10 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-self: center;
   padding: 30px;
 }
 
@@ -62,4 +66,12 @@ main {
   border-radius: 5px;
   background: linear-gradient(to right, #43c6ac, #191654);
   cursor: pointer;
+}
+
+.memeImg_container {
+  margin: auto;
+}
+
+.meme_img {
+  width: 100%;
 }
